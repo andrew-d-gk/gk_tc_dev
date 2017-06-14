@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gk_teamcity_test", "gk_teamcity_test\gk_teamcity_test.csproj", "{58AA2CCC-4F4F-4BFF-A6C1-44B47033BE60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gk_teamcity_test.UnitTests", "gk_teamcity_test.UnitTests\gk_teamcity_test.UnitTests.csproj", "{EE10D1F7-5664-4E03-BFCA-7DCF4ABF5A53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58AA2CCC-4F4F-4BFF-A6C1-44B47033BE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AA2CCC-4F4F-4BFF-A6C1-44B47033BE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AA2CCC-4F4F-4BFF-A6C1-44B47033BE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AA2CCC-4F4F-4BFF-A6C1-44B47033BE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE10D1F7-5664-4E03-BFCA-7DCF4ABF5A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE10D1F7-5664-4E03-BFCA-7DCF4ABF5A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE10D1F7-5664-4E03-BFCA-7DCF4ABF5A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE10D1F7-5664-4E03-BFCA-7DCF4ABF5A53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
