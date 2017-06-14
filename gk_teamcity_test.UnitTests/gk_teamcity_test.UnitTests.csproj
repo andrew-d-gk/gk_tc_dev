@@ -11,6 +11,8 @@
     <AssemblyName>gk_teamcity_test.UnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -48,9 +50,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\gk_teamcity_test\gk_teamcity_test.csproj">
+    <ProjectReference Include="..\gk_teamcity_test\Gk_teamcity_test.csproj">
       <Project>{58aa2ccc-4f4f-4bff-a6c1-44b47033be60}</Project>
-      <Name>gk_teamcity_test</Name>
+      <Name>Gk_teamcity_test</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

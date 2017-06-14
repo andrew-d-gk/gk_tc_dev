@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace gk_teamcity_test.UnitTests
+namespace Gk_teamcity_test.UnitTests
 {
     [TestFixture]
     public class MockTest

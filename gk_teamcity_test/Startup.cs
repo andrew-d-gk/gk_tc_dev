@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(gk_teamcity_test.Startup))]
-namespace gk_teamcity_test
+[assembly: OwinStartupAttribute(typeof(Gk_teamcity_test.Startup))]
+namespace Gk_teamcity_test
 {
     public partial class Startup
     {

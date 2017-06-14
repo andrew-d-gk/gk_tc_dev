@@ -1,11 +1,17 @@
-﻿using System.Web;
-using System.Web.Optimization;
-
-namespace gk_teamcity_test
+﻿namespace Gk_teamcity_test
 {
+    using System.Web;
+    using System.Web.Optimization;
+
+    /// <summary>
+    /// Bundle Configuration
+    /// </summary>
     public class BundleConfig
     {
-        // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
+        /// <summary>
+        /// Registers the bundles.
+        /// </summary>
+        /// <param name="bundles">The bundles.</param>
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
