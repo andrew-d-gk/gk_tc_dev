@@ -8,8 +8,15 @@
     using System.Web.Optimization;
     using System.Web.Routing;
 
+    /// <summary>
+    /// MVC Application
+    /// </summary>
+    /// <seealso cref="System.Web.HttpApplication" />
     public class MvcApplication : System.Web.HttpApplication
     {
+        /// <summary>
+        /// Applications the start.
+        /// </summary>
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();

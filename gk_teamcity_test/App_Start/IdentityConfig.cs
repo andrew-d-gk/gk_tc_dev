@@ -1,6 +1,7 @@
 ﻿namespace Gk_teamcity_test
 {
     using System;
+    using System.Diagnostics.CodeAnalysis;
     using System.Security.Claims;
     using System.Threading.Tasks;
 
@@ -15,6 +16,7 @@
     /// Email Service
     /// </summary>
     /// <seealso cref="Microsoft.AspNet.Identity.IIdentityMessageService" />
+    [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1402:FileMayOnlyContainASingleClass", Justification = "Reviewed.")]
     public class EmailService : IIdentityMessageService
     {
         /// <summary>
@@ -32,6 +34,7 @@
     /// <summary>
     /// SMS Service
     /// </summary>
+    [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1402:FileMayOnlyContainASingleClass", Justification = "Reviewed.")]
     public class SmsService : IIdentityMessageService
     {
         /// <summary>
@@ -48,11 +51,12 @@
     /// <summary>
     /// Application User Manager
     /// </summary>
-    /// <seealso cref="Microsoft.AspNet.Identity.UserManager{Gk_teamcity_test.Models.ApplicationUser}" />
+    /// <seealso cref="ApplicationUser" />
+    [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1402:FileMayOnlyContainASingleClass", Justification = "Reviewed.")]
     public class ApplicationUserManager : UserManager<ApplicationUser>
     {
         /// <summary>
-        /// Initialises a new instance of the application user manager class.
+        /// Initialises a new instance of the <see cref="ApplicationUserManager"/> class.
         /// </summary>
         /// <param name="store">a store</param>
         public ApplicationUserManager(IUserStore<ApplicationUser> store)
@@ -100,11 +104,12 @@
     /// <summary>
     /// Application Sign In Manager
     /// </summary>
-    /// <seealso cref="Microsoft.AspNet.Identity.Owin.SignInManager{Gk_teamcity_test.Models.ApplicationUser, System.String}" />
+    /// <seealso cref="string" />
+    [SuppressMessage("StyleCop.CSharp.MaintainabilityRules", "SA1402:FileMayOnlyContainASingleClass", Justification = "Reviewed.")]
     public class ApplicationSignInManager : SignInManager<ApplicationUser, string>
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ApplicationSignInManager"/> class.
+        /// Initialises a new instance of the <see cref="ApplicationSignInManager"/> class.
         /// </summary>
         /// <param name="userManager">The user manager.</param>
         /// <param name="authenticationManager">The authentication manager.</param>
@@ -114,24 +119,24 @@
         }
 
         /// <summary>
-        /// Called to generate the ClaimsIdentity for the user, override to add additional claims before SignIn
-        /// </summary>
-        /// <param name="user">a user</param>
-        /// <returns></returns>
-        public override Task<ClaimsIdentity> CreateUserIdentityAsync(ApplicationUser user)
-        {
-            return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
-        }
-
-        /// <summary>
         /// Creates the specified options.
         /// </summary>
         /// <param name="options">The options.</param>
         /// <param name="context">The context.</param>
-        /// <returns></returns>
+        /// <returns>an application sign in manager</returns>
         public static ApplicationSignInManager Create(IdentityFactoryOptions<ApplicationSignInManager> options, IOwinContext context)
         {
             return new ApplicationSignInManager(context.GetUserManager<ApplicationUserManager>(), context.Authentication);
+        }
+
+        /// <summary>
+        /// Called to generate the ClaimsIdentity for the user, override to add additional claims before SignIn
+        /// </summary>
+        /// <param name="user">a user</param>
+        /// <returns>a task</returns>
+        public override Task<ClaimsIdentity> CreateUserIdentityAsync(ApplicationUser user)
+        {
+            return user.GenerateUserIdentityAsync((ApplicationUserManager)UserManager);
         }
     }
 }
