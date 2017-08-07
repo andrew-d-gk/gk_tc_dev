@@ -175,8 +175,12 @@ C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\roslyn\VBCSCompiler.exe.conf
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\gk_teamcity_test.UnitTests.dll.config
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\gk_teamcity_test.UnitTests.dll
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\gk_teamcity_test.UnitTests.pdb
-C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\gk_teamcity_test.dll
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\nunit.framework.dll
+C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\nunit.framework.xml
+C:\Repo\gk_dev\gk_teamcity_test.UnitTests\obj\Debug\gk_teamcity_test.UnitTests.csprojResolveAssemblyReference.cache
+C:\Repo\gk_dev\gk_teamcity_test.UnitTests\obj\Debug\gk_teamcity_test.UnitTests.dll
+C:\Repo\gk_dev\gk_teamcity_test.UnitTests\obj\Debug\gk_teamcity_test.UnitTests.pdb
+C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\gk_teamcity_test.dll
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\Microsoft.Owin.dll
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.Optimization.dll
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.Mvc.dll
@@ -194,7 +198,6 @@ C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.WebPages.Razor.dl
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.WebPages.dll
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.WebPages.Deployment.dll
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\gk_teamcity_test.pdb
-C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\nunit.framework.xml
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\Microsoft.Owin.xml
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.Optimization.xml
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.Mvc.xml
@@ -209,6 +212,3 @@ C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.Razor.xml
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.WebPages.xml
 C:\Repo\gk_dev\gk_teamcity_test.UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\Repo\gk_dev\gk_teamcity_test.UnitTests\obj\Debug\gk_teamcity_test.UnitTests.csprojResolveAssemblyReference.cache
-C:\Repo\gk_dev\gk_teamcity_test.UnitTests\obj\Debug\gk_teamcity_test.UnitTests.dll
-C:\Repo\gk_dev\gk_teamcity_test.UnitTests\obj\Debug\gk_teamcity_test.UnitTests.pdb
