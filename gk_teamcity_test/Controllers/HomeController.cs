@@ -24,11 +24,13 @@
         /// <summary>
         /// About this instance.
         /// </summary>
-        /// <returns>a view</returns>
+        /// <returns>a viesdaw</returns>
         public ActionResult About()
         {
+            
+            //sdsadas
             ViewBag.Message = "Your application description page.";
-
+            //dsdsadsadasdas
             return this.View();
         }
 
