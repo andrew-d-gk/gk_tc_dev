@@ -14,7 +14,9 @@
         [Test]
         public void CheckSum()
         {
+            //dsfdsfsdf
             var testValue = 2;
+            //ddsfsdf
             Assert.AreEqual(testValue, 2);
         }
 
@@ -24,6 +26,7 @@
         [Test]
         public void CheckSum2()
         {
+            //fdsfdfsd
             var testValue = 2;
             Assert.AreNotEqual(testValue, 3);
         }

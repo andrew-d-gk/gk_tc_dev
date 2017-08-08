@@ -325,9 +325,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="1070005996">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
   <sourcecode name="HomeController.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2017/06/15 11:19:41.810</styleCop>
@@ -389,4 +386,7 @@
       </violation>
     </violations>
   </sourcecode>
+  <project key="1070005996">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
 </stylecopresultscache>
