@@ -14,8 +14,6 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TargetFrameworkProfile />
-    <StyleCopOverrideSettingsFile>Settings.StyleCop</StyleCopOverrideSettingsFile>
-    <BuildToolsStyleCopVersion>4.7.44.0</BuildToolsStyleCopVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,10 +40,6 @@
   <ItemGroup>
     <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="StyleCop, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
-      <HintPath>..\packages\StyleCop.5.0.0\lib\net40\StyleCop.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -80,7 +74,6 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Visual-StyleCop.MSBuild.4.7.59.0\build\Visual-StyleCop.MSBuild.Targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Visual-StyleCop.MSBuild.4.7.59.0\build\Visual-StyleCop.MSBuild.Targets'))" />
     <Error Condition="!Exists('..\packages\StyleCop.MSBuild.5.0.0\build\StyleCop.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\StyleCop.MSBuild.5.0.0\build\StyleCop.MSBuild.targets'))" />
   </Target>
   <Import Project="..\packages\StyleCop.MSBuild.5.0.0\build\StyleCop.MSBuild.targets" Condition="Exists('..\packages\StyleCop.MSBuild.5.0.0\build\StyleCop.MSBuild.targets')" />
